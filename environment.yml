@@ -1,0 +1,25 @@
+name: quantum-options-trading
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip
+  - pip:
+    - yfinance
+    - torch==2.0.1
+    - torchvision
+    - torchaudio
+    - qiskit
+    - plotly
+    - ta-lib
+    - black
+    - flake8
